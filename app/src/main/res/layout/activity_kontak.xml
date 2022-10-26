@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kontak">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contact1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/contact3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:onClick="pageRubick"
+        android:text="@string/contact1"
+        android:textAllCaps="false"
+        android:textColor="#2E7D32"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="UsingOnClickInXml" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contact2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/contact1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:onClick="pageJuggernaut"
+        android:text="@string/contact2"
+        android:textAllCaps="false"
+        android:textColor="#AE5410"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="UsingOnClickInXml" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contact3"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="-1dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:onClick="pageShadowFiend"
+        android:text="@string/contact3"
+        android:textAllCaps="false"
+        android:textColor="#B12049"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</RelativeLayout>
